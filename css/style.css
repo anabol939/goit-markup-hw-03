@@ -395,30 +395,12 @@ img {
   color: #ffffff;
 }
 /*=========footer=======*/
-/*.footer {
-  background-color: #2f303a;
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-}
-/*.footer-portfolio {
-  background-color: #2f303a;
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  margin-top: 175px;
-}*/
-.footer-section {
+footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .adress-item {
   font-weight: 400;
   font-size: 14px;
