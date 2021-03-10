@@ -84,7 +84,10 @@ img {
   border-bottom: var(--fives-colour) 1px solid;
 }
 .header-links-item {
-  display: block;
+}
+.header-links-item:not(:last-child) {
+  margin-left: auto;
+  margin-right: 50px;
 }
 .img-about {
   display: flex;
@@ -158,6 +161,7 @@ img {
 .contact-list {
   display: flex;
   align-items: center;
+
   margin-left: auto;
 }
 
