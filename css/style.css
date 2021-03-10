@@ -242,9 +242,9 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: #212121;
   padding: 20px 30px;
-  background-color: var(--akcent-color);
+  background-color: #f5f4fa;
   margin-top: 70px;
 }
 
@@ -255,6 +255,7 @@ img {
 .model-btn1:hover,
 .model-btn1:focus {
   background-color: var(--akcent-color);
+  color: #ffffff;
 }
 
 .herro-list {
