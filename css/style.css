@@ -102,8 +102,8 @@ img {
 
 .logo {
   margin-right: 70px;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .navigation {
   display: flex;
@@ -113,6 +113,7 @@ img {
   display: flex;
   align-items: center;
 }
+
 .navigation-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -134,8 +135,8 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--third-colour);
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -146,6 +147,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--second-colour);
 }
@@ -154,6 +157,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--second-colour);
 }
@@ -190,7 +195,7 @@ img {
 }
 
 .about-border-portfolio {
-  background-color: var(--fives-colour);
+  background-color: var(--first-colour);
   padding-right: 24px;
   padding-left: 24px;
   text-align: left;
@@ -214,21 +219,29 @@ img {
   text-transform: uppercase;
 }
 .model-btn {
-  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   min-width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   padding-bottom: 200px;
-  text-align: center;
+
   letter-spacing: 0.06em;
-  align-items: center;
+
   color: var(--first-colour);
-  padding: 20px 30px;
+  padding: 10px 32px;
   background-color: var(--akcent-color);
 }
 .model-btn1 {
+  min-width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: var(--secondary-bg-colour);
   border-radius: 4px;
 
   font-weight: 700;
@@ -237,12 +250,10 @@ img {
   padding-left: 22px;
   padding-right: 22px;
   padding-bottom: 6px;
-  text-align: center;
-  letter-spacing: 0.06em;
 
+  letter-spacing: 0.06em;
+  border: var(--secondary-bg-colour);
   color: var(--third-colour);
-  padding: 20px 30px;
-  background-color: var(--secondary-bg-colour);
 }
 
 .model-btn:hover,
@@ -405,32 +416,35 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.adress {
+  margin-top: 20px;
+}
 
 .adress-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   letter-spacing: 0.03em;
-  margin-top: 9px;
+  margin-bottom: 9px;
 
-  /*color: #ffffff;*/
+  color: var(--first-colour);
 }
 .adress-mail {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  margin-top: 9px;
+  margin-bottom: 9px;
   letter-spacing: 0.03em;
 
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 .adress-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-top: 9px;
+  margin-bottom: 9px;
   color: var(--second-colour);
 }
 .adreess-link {
