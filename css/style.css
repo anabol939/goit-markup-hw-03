@@ -71,7 +71,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -244,7 +243,7 @@ img {
 }
 .model-btn1 {
   min-width: 128px;
-  height: 38px;
+
   left: 576px;
   top: 174px;
 
@@ -271,6 +270,7 @@ img {
 .model-btn1:focus {
   background-color: var(--akcent-color);
   color: var(--first-colour);
+  outline: none;
 }
 
 .herro-list {
@@ -453,6 +453,6 @@ footer {
   margin-bottom: 9px;
   color: var(--second-colour);
 }
-.adreess-link {
-  margin-top: 20px;
+.adreess-link:not(:last-child) {
+  margin-bottom: 9px;
 }
